@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPLE Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="asest\css\style.css">
+    <link rel="stylesheet" href="asest\css\responsive.css">
+</head>
+
+<body style="background-color: black;">
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#"><img src="asest/image/apple-logo.png" alt="Apple Logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">iPad</a></li>
+                <li><a href="#">iPhone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">TV & Home</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+            <div class="search-cart">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-shopping-bag"></i>
+            </div>
+            <div class="menu"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+    <div class="deails">
+        <div class="info">
+            <a href="#">Get up to $180-$670 in credit toward iPhone 17 Pro when you trade in iPhone 13 or higher.</a>
+        </div>
+    </div>
+    <div class="header">
+        <div class="header-content">
+            <img src="asest\image\iphone-poster.jpg" alt="iPhone 17 Pro">
+            <div class="image">
+                <img src="asest\image\iphone-poster-2.jpg" alt="iPhone 17 Pro">
+            </div>
+            <div class="btn" style="background-color: rgba(0, 0, 0, 0.568);position: relative; z-index: 100;">
+                <button>Buy</button>
+                <p>From $1099 or $45.79/mo. for 24 mo.</p>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <section class="slider-section">
+            <div class="background bg-0" id="background"></div>
+
+            <div class="content">
+                <div class="title-section">
+                    <h2 class="title" id="title">Dark Aesthetic</h2>
+                    <p class="subtitle" id="subtitle">Sleek and modern interface</p>
+                </div>
+
+                <div class="phones-container">
+                    <!-- Left Phone -->
+                    <div class="phone phone-side">
+                        <div class="phone-screen">
+                            <img id="leftImage" src="asest\image\iPhone-chip.jpg" alt="Previous">
+                        </div>
+                    </div>
+
+                    <!-- Center Phone -->
+                    <div class="phone phone-center">
+                        <div class="notch"></div>
+                        <div class="phone-screen">
+                            <img id="centerImage" src="asest\image\iPhone-color.jpg" alt="Current">
+                        </div>
+                    </div>
+
+                    <!-- Right Phone -->
+                    <div class="phone phone-side">
+                        <div class="phone-screen">
+                            <img id="rightImage" src="asest\image\iPhne-zoom.jpg" alt="Next">
+                        </div>
+                    </div>
+
+                    <!-- Navigation Buttons -->
+                    <button class="nav-button nav-button-left" id="heroPrevBtn">
+                        <svg viewBox="0 0 24 24">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </button>
+                    <button class="nav-button nav-button-right" id="heroNextBtn">
+                        <svg viewBox="0 0 24 24">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Dots Navigation -->
+                <div class="dots-container" id="dotsContainer"></div>
+
+                <!-- Play/Pause Control -->
+                <button class="control-button" id="controlBtn">⏸ Pause</button>
+            </div>
+        </section>
+    </div>
+    <div class="fram">
+        <div class="fream-info">
+            <h6>Design</h6>
+            <h1>Unibody enclosure. <br>
+                Makes a strong case for itself.</h1>
+            <p>Introducing iPhone 17 Pro and iPhone 17 Pro Max, designed from the inside out to be the <br>most powerful
+                iPhone models ever made. At the core of the new design is a heat-forged <br>aluminium unibody enclosure
+                that
+                maximises performance, battery capacity <br>and durability.</p>
+            <img src="asest\image\iPhone-design_endframe.jpg" alt="">
+            <div class="frame">
+                <img src="asest\image\iPhone-fram.jpg" alt="iPhone-fram">
+            </div>
+            <h2>Take a closer look.</h2>
+        </div>
+    </div>
+    <div class="feature">
+        <div class="container">
+            <div class="glow"></div>
+
+            <div class="sidebar">
+                <button class="feature-btn active" data-feature="colours">
+                    <span class="icon">🎨</span>
+                    <span>Colours</span>
+                </button>
+                <button class="feature-btn" data-feature="unibody">
+                    <span class="icon">💎</span>
+                    <span>Aluminium unibody</span>
+                </button>
+                <button class="feature-btn" data-feature="vapour">
+                    <span class="icon">❄️</span>
+                    <span>Vapour chamber</span>
+                </button>
+                <button class="feature-btn" data-feature="shield">
+                    <span class="icon">🛡️</span>
+                    <span>Ceramic Shield</span>
+                </button>
+                <button class="feature-btn" data-feature="display">
+                    <span class="icon">📱</span>
+                    <span>Immersive pro display</span>
+                </button>
+                <button class="feature-btn" data-feature="camera">
+                    <span class="icon">📷</span>
+                    <span>Camera Control</span>
+                </button>
+            </div>
+
+            <div class="phone-container">
+                <div class="phone">
+                    <div class="phone-frame">
+                        <div class="notch"></div>
+                        <div class="side-buttons">
+                            <div class="side-btn"></div>
+                            <div class="side-btn"></div>
+                        </div>
+
+                        <div class="phone-screen">
+                            <div class="screen-content active" data-content="colours">
+                                <div class="feature-display">
+                                    <div class="feature-icon">🎨</div>
+                                    <div class="feature-title">Stunning Colours</div>
+                                    <div class="feature-description">Available in a gorgeous array of finishes</div>
+                                </div>
+                            </div>
+
+                            <div class="screen-content" data-content="unibody">
+                                <div class="feature-display">
+                                    <div class="feature-icon">💎</div>
+                                    <div class="feature-title">Aluminium Unibody</div>
+                                    <div class="feature-description">Precision crafted from aerospace-grade aluminium
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="screen-content" data-content="vapour">
+                                <div class="feature-display">
+                                    <div class="feature-icon">❄️</div>
+                                    <div class="feature-title">Vapour Chamber</div>
+                                    <div class="feature-description">Advanced cooling for peak performance</div>
+                                </div>
+                            </div>
+
+                            <div class="screen-content" data-content="shield">
+                                <div class="feature-display">
+                                    <div class="feature-icon">🛡️</div>
+                                    <div class="feature-title">Ceramic Shield</div>
+                                    <div class="feature-description">Tougher than any smartphone glass</div>
+                                </div>
+                            </div>
+
+                            <div class="screen-content" data-content="display">
+                                <div class="feature-display">
+                                    <div class="feature-icon">📱</div>
+                                    <div class="feature-title">Pro Display</div>
+                                    <div class="feature-description">Immersive edge-to-edge experience</div>
+                                </div>
+                            </div>
+
+                            <div class="screen-content" data-content="camera">
+                                <div class="feature-display">
+                                    <div class="feature-icon">📷</div>
+                                    <div class="feature-title">Camera Control</div>
+                                    <div class="feature-description">Quick access to your favorite features</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-panel">
+                <div class="info-title">Action button</div>
+                <div class="info-text">A customisable fast track to your favourite feature. Long press to launch the
+                    action you want — Silent mode, Translation, Shortcuts and more.</div>
+            </div>
+        </div>
+    </div>
+    <div class="camera-content">
+        <h6>Cameras</h6>
+        <h1>A big zoom forward.</h1>
+        <img src="asest\image\iPhone-back.jpg" alt="iPhone-back">
+        <div class="back">
+            <img src="asest\image\iPhone-back2.jpg" alt="iPhone-back">
+        </div>
+        <div class="camera-info">
+            <p>Up to</p>
+            <h4>8x</h4>
+            <p1>optical-quality zoom</p1><br><br>
+            <div class="part">
+                <p>All</p>
+                <h4>48MP</h4>
+                <p2>rear cameras</p2>
+            </div>
+        </div>
+        <div class="para">
+            <p>Across the iPhone 17 Pro camera system, you’ll find innovation that goes to great lengths. The
+                telephoto features the next generation of our tetraprism design and a 56% larger sensor. With an
+                equivalent 200 mm focal length, the 8x optical-quality zoom makes this the longest iPhone Telephoto
+                ever — offering 16x total optical zoom range. So you can explore an even wider range of creative
+                choices and add a longer reach to your compositions.</p>
+        </div>
+    </div>
+    <div class="zoom">
+        <div class="image-viewer">
+            <div class="image-wrapper">
+                <img id="mainImage" src="asest\image\200mm.jpg" alt="Preview Image">
+            </div>
+
+            <div class="controls">
+                <button data-index="0">200 mm</button>
+                <button data-index="1">100 mm</button>
+                <button data-index="2">48 mm</button>
+                <button data-index="3">38 mm</button>
+                <button data-index="4">28 mm</button>
+                <button data-index="5">24 mm</button>
+                <button data-index="6">13 mm</button>
+                <button data-index="7" class="active">Macro</button>
+            </div>
+        </div>
+    </div>
+    <div class="zoom-info">
+        <p>Like having 8 pro lenses in your pocket. Super-high-resolution <br>24MP photos by default.</p>
+        <img src="asest\image\rear-camera.jpg" alt="Rear-Camera">
+        <div class="zoom2">
+            <img src="asest\image\rear-camera2.jpg" alt="Rear-Camera">
+        </div>
+        <div class="zoom-info2">
+            <div class="info1">
+                <h3>48MP Fusion Main camera</h3>
+                <hr>
+                <p>24/48 mm focal length (1x/2x) <br>ƒ/1.78 aperture <br>2.44 μm quad-pixel (1.22 μm individual)</p>
+            </div>
+            <div class="info2">
+                <h3>48MP Fusion Ultra Wide camera</h3>
+                <hr>
+                <p>13 mm focal length (.5x/macro) <br>ƒ/2.2 aperture <br>1.4 μm quad-pixel (0.7 μm individual)</p>
+            </div>
+            <div class="info3">
+                <h3>48MP Fusion Telephoto camera</h3>
+                <hr>
+                <p>100/200 mm focal length (4x/8x) <br>ƒ/2.8 aperture <br>1.4 μm quad-pixel (0.7 μm individual)</p>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-container">
+        <div class="header">Pro results down to the pixel.</div>
+
+        <div class="carousel-wrapper">
+            <div class="carousel-track" id="galleryCarouselTrack">
+                <div class="image-card active">
+                    <img src="asest\image\night_mode.jpg" alt="Purple neon">
+                    <div class="image-caption">
+                        Create stunning visuals with advanced color grading and professional editing tools.
+                    </div>
+                </div>
+                <div class="image-card">
+                    <img src="asest\image\48mp__ef1q7ifdp9yu_large.jpg" alt="Fashion portrait">
+                    <div class="image-caption">
+                        AI-powered portrait enhancement delivers studio-quality results with natural skin tones and
+                        perfect lighting.
+                    </div>
+                </div>
+                <div class="image-card">
+                    <img src="asest\image\uw48mp__c9n4j00eyfo2_large.jpg" alt="Black and white">
+                    <div class="image-caption">
+                        Transform your photos with cinematic black and white processing and dynamic contrast.
+                    </div>
+                </div>
+                <div class="image-card">
+                    <img src="asest\image\photographic_styles__boatmzba74ty_large.jpg" alt="Urban style">
+                    <div class="image-caption">
+                        Capture authentic moments with precise focus control and adaptive exposure technology.
+                    </div>
+                </div>
+                <div class="image-card">
+                    <img src="asest\image\clean_up__f464pvxvb66i_large.jpg" alt="Pomegranate">
+                    <div class="image-caption">
+                        Deliver brilliant color accuracy with intelligent processing that brings every detail to life.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-dots" id="navDots"></div>
+    </div>
+    <div class="front-camare">
+        <h1>18MP Center Stage front camera. <br>It’s a total frame changer.</h1>
+        <p>The new front camera gives you flexible ways to frame your photos and videos — and so much more. Tap to
+            expand the field of view and rotate from portrait to landscape without moving your iPhone. And when friends
+            join the shot, the field of view expands so you get more friendsies in your selfies.</p>
+        <div class="container">
+            <div class="iphone">
+                <div class="notch"></div>
+                <div class="camera-dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+                <div class="screen">
+                    <div class="photo-container">
+                        <div class="photo-wrapper" id="photoWrapper">
+                            <img class="photo active" src="asest\image\iphone-17-center-stage.webp" alt="Photo 1"
+                                data-filter="original">
+                            <img class="photo" src="asest\image\camera_18mp_center_stage_5_01558bd53b.png" alt="Photo 2"
+                                data-filter="vivid">
+                            <img class="photo" src="asest\image\stabilized_video__cu93m17qhoia_large.jpg" alt="Photo 3"
+                                data-filter="dramatic">
+                            <img class="photo" src="asest\image\Screenshot-2025-09-13-160329.jpg" alt="Photo 4"
+                                data-filter="mono">
+                        </div>
+                    </div>
+                    <div class="controls">
+                        <button class="control-btn">
+                            <div class="control-icon"></div>
+                        </button>
+                        <button class="shutter-btn"></button>
+                        <button class="control-btn">
+                            <div class="control-icon"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="original">
+                    <div class="filter-label">
+                        <div class="filter-preview">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-person-video3" viewBox="0 0 16 16">
+                                <path
+                                    d="M14 9.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-6 5.7c0 .8.8.8.8.8h6.4s.8 0 .8-.8-.8-3.2-4-3.2-4 2.4-4 3.2" />
+                                <path
+                                    d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h5.243c.122-.326.295-.668.526-1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v7.81c.353.23.656.496.91.783Q16 12.312 16 12V4a2 2 0 0 0-2-2z" />
+                            </svg>
+                        </div>
+                    </div>
+                </button>
+                <button class="filter-btn" data-filter="vivid">
+                    <div class="filter-label">
+                        <div class="filter-preview">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-pip-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2zm7 6h5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5" />
+                            </svg>
+                        </div>
+                    </div>
+                </button>
+                <button class="filter-btn" data-filter="dramatic">
+                    <div class="filter-label">
+                        <div class="filter-preview">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-person-walking" viewBox="0 0 16 16">
+                                <path
+                                    d="M9.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0M6.44 3.752A.75.75 0 0 1 7 3.5h1.445c.742 0 1.32.643 1.243 1.38l-.43 4.083a1.8 1.8 0 0 1-.088.395l-.318.906.213.242a.8.8 0 0 1 .114.175l2 4.25a.75.75 0 1 1-1.357.638l-1.956-4.154-1.68-1.921A.75.75 0 0 1 6 8.96l.138-2.613-.435.489-.464 2.786a.75.75 0 1 1-1.48-.246l.5-3a.75.75 0 0 1 .18-.375l2-2.25Z" />
+                                <path
+                                    d="M6.25 11.745v-1.418l1.204 1.375.261.524a.8.8 0 0 1-.12.231l-2.5 3.25a.75.75 0 1 1-1.19-.914zm4.22-4.215-.494-.494.205-1.843.006-.067 1.124 1.124h1.44a.75.75 0 0 1 0 1.5H11a.75.75 0 0 1-.531-.22Z" />
+                            </svg>
+                        </div>
+                    </div>
+                </button>
+                <button class="filter-btn" data-filter="mono">
+                    <div class="filter-label">
+                        <div class="filter-preview">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-person-bounding-box" viewBox="0 0 16 16">
+                                <path
+                                    d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5M.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5" />
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                            </svg>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <h2>Artificial intelligence automatically adjusts the frame, so you’re front and centre for virtual meetings and
+            FaceTime calls.</h2>
+    </div>
+    <div class="pro-video">
+        <div class="small-content">
+            <h6>Pro video</h6>
+            <h1>Any more pro and <br>it would need an agent.</h1>
+            <img src="asest\image\e62a7ae0-8921-4051-82a9-829739d29ab5_imgupscaler.ai_General_16K.jpg" alt="">
+            <p>From home movies to Hollywood productions, iPhone 17 Pro is up to any challenge. With more pro video
+                features than ever — like enhanced video stabilisation, cinema-grade specs and compatibility with
+                industry-standard workflows — iPhone 17 Pro puts powerful filmmaking tools within reach, wherever you
+                need them.</p>
+        </div>
+    </div>
+    <div class="carousel-container">
+        <div class="carousel-grid">
+            <div class="carousel-item active" data-index="0">
+                <img src="asest/image/img1.jpg" alt="iPhone Pro">
+                <div class="item-overlay">
+                    <div class="item-title">iPhone Pro Max</div>
+                    <div class="item-description">Discover the next generation of mobile innovation with advanced camera
+                        systems and powerful performance.</div>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-index="1">
+                <img src="asest/image/img2.jpg" alt="Coding Setup">
+                <div class="item-overlay">
+                    <div class="item-title">Developer Workspace</div>
+                    <div class="item-description">A complete coding environment designed for professionals who build
+                        tomorrow's technology.</div>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-index="2">
+                <img src="asest/image/img3.jpg" alt="Film Production">
+                <div class="item-overlay">
+                    <div class="item-title">Professional Production</div>
+                    <div class="item-description">Experience cinematic excellence with state-of-the-art equipment and
+                        professional filmmaking tools.</div>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-index="3">
+                <img src="asest/image/img4.jpg" alt="Live Concert">
+                <div class="item-overlay">
+                    <div class="item-title">Live Performance</div>
+                    <div class="item-description">Immerse yourself in breathtaking audiovisual experiences that
+                        captivate and inspire audiences.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-controls">
+            <button class="control-btn active" data-slide="0" aria-label="Go to slide 1"></button>
+            <button class="control-btn" data-slide="1" aria-label="Go to slide 2"></button>
+            <button class="control-btn" data-slide="2" aria-label="Go to slide 3"></button>
+            <button class="control-btn" data-slide="3" aria-label="Go to slide 4"></button>
+        </div>
+
+        <div class="instructions">
+            Click on any image or use the buttons below to navigate
+        </div>
+    </div>
+    <div class="Performance-tab">
+        <h6>Performance</h6>
+        <h1>New dimensions in power.</h1>
+        <p>Whether you’re working with intensive graphics or massive media files, iPhone 17 Pro offers blazing-fast
+            performance — with advanced cooling technology. An Apple-designed laser-welded vapour chamber works with the
+            aluminium unibody structure to efficiently move heat away from the A19 Pro chip, allowing for even higher
+            sustained performance. This breakthrough in thermal management is key to the most powerful iPhone ever
+            created.</p>
+        <img src="asest\image\performance__f3753fjhjoii_xlarge.jpg" alt="">
+        <div class="device-info">
+            <div class="info1">
+                <h3>A19 Pro chip</h3>
+                <hr>
+                <p>The Apple silicon powering iPhone 17 Pro delivers the highest iPhone performance ever, ideal for
+                    advanced gaming and the most demanding tasks.</p>
+            </div>
+            <div class="info2">
+                <h3>Graphics and speed</h3>
+                <hr>
+                <p>Paired with an innovative thermal design, the GPU and CPU deliver up to 40% better sustained
+                    performance.</p>
+            </div>
+            <div class="info3">
+                <h3>Neural Accelerators</h3>
+                <hr>
+                <p>With Neural Accelerators integrated into each GPU core, iPhone 17 Pro is more powerful than ever when
+                    working with local AI models.</p>
+            </div>
+        </div>
+    </div>
+    <div class="battery-life">
+        <h1>Battery life.All-time high.</h1>
+        <p>The new internal design creates significant additional room for battery capacity, giving iPhone 17 Pro Max
+            the best-ever iPhone battery life10 and up to 3 more hours per full charge compared to iPhone 15 Pro Max.
+            From extended video playback to after-hours work, it’s always ready for overtime.</p>
+        <img src="asest\image\battery__fc7m9oxxh7yy_xlarge.jpg" alt="">
+        <div class="img2">
+            <img src="asest\image\battery__fc7m9oxxh7yy_large2.jpg" alt="">
+        </div>
+        <div class="battery-info">
+            <div class="info1">
+                <h3>Up to</h3>
+                <h2>31 hours</h2>
+                <p>video playback on <br>iPhone 17 Pro</p>
+            </div>
+            <div class="info2">
+                <h3>Up to</h3>
+                <h2>37 hours</h2>
+                <p>video playback on iPhone 17 Pro Max</p>
+            </div>
+            <div class="info3">
+                <h3>Up to</h3>
+                <h2>50% charge in 20 minutes</h2>
+                <p>with high-wattage power adapter</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="comparison-header">
+            <span>Compare with</span>
+            <div class="dropdown">
+                <button class="dropdown-button" id="dropdownBtn">iPhone 15 Pro Max</button>
+                <div class="dropdown-menu" id="dropdownMenu">
+                    <button data-phone="0">iPhone 15 Pro Max</button>
+                    <button data-phone="1">iPhone 15 Pro</button>
+                    <button data-phone="2">iPhone 15 Plus</button>
+                    <button data-phone="3">iPhone 15</button>
+                    <button data-phone="4">iPhone 14 Pro</button>
+                    <button data-phone="5">iPhone 14</button>
+                    <button data-phone="6">iPhone 13 Pro Max</button>
+                    <button data-phone="7">iPhone 13 Pro</button>
+                    <button data-phone="8">iPhone 13</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="phone-display">
+            <div class="phone-image active" id="phoneImage">
+                <img src="https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-deep-purple-220907_big.jpg.large.jpg"
+                    alt="iPhone">
+            </div>
+        </div>
+
+        <div class="stats-grid" id="statsGrid">
+            <div class="stat-card active">
+                <div class="stat-label">Display</div>
+                <div class="stat-value">6.7"</div>
+                <div class="stat-description">Super Retina XDR</div>
+            </div>
+            <div class="stat-card active">
+                <div class="stat-label">Chip</div>
+                <div class="stat-value">A17 Pro</div>
+                <div class="stat-description">Next-gen performance</div>
+            </div>
+            <div class="stat-card active">
+                <div class="stat-label">Camera</div>
+                <div class="stat-value">48MP Main</div>
+                <div class="stat-description">Pro camera system</div>
+            </div>
+            <div class="stat-card active">
+                <div class="stat-label">Battery</div>
+                <div class="stat-value">Up to 29h</div>
+                <div class="stat-description">video playback</div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="all-in-the-family">
+        <h6>All in the family</h6>
+        <h1>All the must-haves.
+            All on iPhone.</h1>
+        <div class="img-info">
+            <img src="asest/image/left side iphone img.jpg" alt="left-side">
+            <img src="asest/image/front side iphone img.jpg" alt="front-side" class="front-side">
+            <img src="asest/image/right side iphone img.jpg" alt="right-side" class="right-side">
+        </div>
+        <p>The latest iPhone models come packed with advanced capabilities. Helpful <br>Apple Intelligence features such
+            as
+            visual intelligence12 and Writing Tools to make your <br>everyday easier. Fast, secure connections with
+            Wi‑Fi
+            7,13 Bluetooth 6, 5G connectivity14 <br>and eSIM.</p>
+    </div>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>iOS 26. New look.</h1>
+            <p>Even more magic.</p>
+        </div>
+
+        <!-- Showcase Section -->
+        <div class="showcase">
+            <!-- Image Box -->
+            <div class="image-box-container">
+                <div class="image-box">
+                    <!-- Feature Images -->
+                    <img src="asest/image/liquid_glass__e9ecrp3gjoi2_large.jpg" alt="Liquid Glass"
+                        class="feature-image active" data-feature="0">
+
+                    <img src="asest/image/lock_screen__dvngwda2cfee_large.jpg" alt="Dynamic Lock Screen"
+                        class="feature-image" data-feature="1">
+
+                    <img src="asest/image/call_screening__dslz1ggca1g2_large.jpg" alt="Call Screening"
+                        class="feature-image" data-feature="2">
+
+                    <img src="asest/image/hold_assist__djza3t3aw3gy_large.jpg" alt="Hold Assist" class="feature-image"
+                        data-feature="3">
+
+                    <img src="asest/image/polls__exmugx31zriq_large.jpg" alt="Polls in Messages" class="feature-image"
+                        data-feature="4">
+                </div>
+            </div>
+
+            <!-- Feature Information -->
+            <div class="feature-info">
+                <div class="section-label">Focus</div>
+                <span class="feature-tag new active">NEW</span>
+                <h2 class="feature-title active">Liquid Glass</h2>
+                <p class="feature-description active">
+                    The new iOS design reflects and mirrors what's beneath it in real time,
+                    dynamically adapting to your content across apps and devices.
+                </p>
+
+                <!-- Feature View (for Call Screening) -->
+                <div class="feature-view call-screening">
+                    <div class="view-title">View</div>
+                    <div class="call-info">A Screening Call +19 30288 0000</div>
+                    <div class="call-detail">
+                        Phone is asking the caller for their name and why they are calling
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div class="navigation">
+            <button class="nav-button active" data-index="0">Liquid Glass</button>
+            <button class="nav-button" data-index="1">Lock Screen</button>
+            <button class="nav-button" data-index="2">Call Screening</button>
+            <button class="nav-button" data-index="3">Hold Assist</button>
+            <button class="nav-button" data-index="4">Polls</button>
+        </div>
+
+        <!-- Arrow Navigation -->
+        <div class="arrows">
+            <button class="arrow-btn" id="prevBtn">←</button>
+            <button class="arrow-btn" id="nextBtn">→</button>
+        </div>
+    </div>
+    <!-- iPhone Footer -->
+    <footer class="iphone-footer">
+        <div class="footer-container">
+            <!-- Footer Top -->
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fab fa-apple"></i>
+                        <span>iPhone</span>
+                    </div>
+                    <p class="footer-tagline">The most powerful iPhone ever. Experience the future of mobile technology.
+                    </p>
+                    <div class="iphone-badge">
+                        <i class="fas fa-bolt"></i>
+                        <span>Super Retina XDR Display</span>
+                    </div>
+                    <div class="country-selector">
+                        <i class="fas fa-globe"></i>
+                        <span>United States</span>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Shop</h3>
+                        <ul>
+                            <li><a href="#">iPhone 15 Pro</a></li>
+                            <li><a href="#">iPhone 15</a></li>
+                            <li><a href="#">iPhone 14</a></li>
+                            <li><a href="#">iPhone SE</a></li>
+                            <li><a href="#">Compare</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h3>Accessories</h3>
+                        <ul>
+                            <li><a href="#">MagSafe</a></li>
+                            <li><a href="#">AirPods</a></li>
+                            <li><a href="#">Apple Watch</a></li>
+                            <li><a href="#">Cases & Protection</a></li>
+                            <li><a href="#">Power & Cables</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="#">iPhone Support</a></li>
+                            <li><a href="#">AppleCare+</a></li>
+                            <li><a href="#">Repair Services</a></li>
+                            <li><a href="#">Software Updates</a></li>
+                            <li><a href="#">Contact Support</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">iPhone User Guide</a></li>
+                            <li><a href="#">Technical Specifications</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                            <li><a href="#">Environment</a></li>
+                            <li><a href="#">Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>Copyright © 2024 Apple Inc. All rights reserved.</p>
+                </div>
+
+                <div class="footer-social">
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Sales Policy</a>
+                    <a href="#">Legal</a>
+                    <a href="#">Site Map</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="asest\css\script.js"></script>
+</body>
+
+</html>
