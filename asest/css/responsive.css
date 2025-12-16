@@ -1,0 +1,755 @@
+@media screen and (max-width: 600px) {
+    .navbar ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    /* Tablet tweaks */
+    @media (max-width: 768px) {
+        .feature {
+            margin-top: 700px;
+        }
+
+        .sidebar {
+            left: 20px;
+            display: block;
+            flex-direction: row;
+            top: 70%;
+        }
+
+        .feature-btn {
+            font-size: 12px;
+            padding: 10px 15px;
+        }
+
+        .phone-container {
+            width: 400px;
+            height: 590px;
+            margin-top: -250px;
+        }
+
+        .info-panel {
+            left: 20px;
+            bottom: 20px;
+            max-width: 250px;
+        }
+    }
+
+    .logo {
+        margin-right: 240px;
+    }
+
+    .search-cart {
+        display: inline-flex;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .deails {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .header-content img {
+        width: 100%;
+        display: none;
+    }
+
+    .image img {
+        display: block;
+        margin-top: 30px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .btn {
+        text-align: center;
+        margin-top: -120px;
+        width: 100%;
+        height: 150px;
+
+        p {
+            margin-top: 150px !important;
+        }
+    }
+
+    .header button {
+        margin-top: 150px;
+    }
+
+    .header .btn p {
+        color: white;
+        margin-top: 190px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .phone-center {
+        width: 280px;
+        height: 560px;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .fream-info {
+        text-align: start;
+        margin-left: 40px;
+    }
+
+    .fream-info .frame img {
+        display: block;
+        width: 350px;
+        height: auto;
+        margin-top: 70px;
+    }
+
+    .fream-info img {
+        display: none;
+    }
+
+    .fream-info h2 {
+        margin-left: 0;
+        font-size: 25px;
+        margin-top: 190px;
+    }
+
+    .camera-content img {
+        display: none;
+    }
+
+    .back img {
+        display: block;
+        width: 100%;
+    }
+
+    .camera-content h6 {
+        margin-left: 00px;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .camera-content h1 {
+        margin-left: 00px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .camera-info {
+        margin-left: 0px;
+        display: flex;
+        font-size: 10px;
+        margin-top: 90px;
+    }
+
+    .camera-info p {
+        margin-left: 10px;
+        margin-top: -10px;
+        font-size: 20px;
+    }
+
+    .camera-info p1 {
+        margin-top: 90px;
+        font-size: 20px;
+        margin-left: -53px;
+    }
+
+    .camera-info h4 {
+        margin-top: 20px;
+        margin-left: -50px;
+    }
+
+    .part p {
+        font-size: 25px;
+        margin-top: -11px;
+    }
+
+    .part h4 {
+        margin-top: -3px;
+        margin-left: 20px;
+    }
+
+    .part p2 {
+        font-size: 25px;
+        margin-left: 30px;
+        margin-top: -12px;
+    }
+
+    .para P {
+        text-align: start;
+        margin-top: 60px;
+        margin-left: 30px;
+        font-size: 14px;
+        width: 370px;
+    }
+
+    .iphone {
+        width: 280px;
+        height: 570px;
+        margin-top: -90px;
+    }
+
+    .front-camare h1 {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .front-camare p {
+        margin: auto;
+        margin-top: 20px;
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .filter-bar {
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .front-camare h2 {
+        margin: auto;
+        margin-top: -130px;
+    }
+
+    .pro-video .small-content h6 {
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .pro-video .small-content h1 {
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .pro-video .small-content img {
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .pro-video .small-content p {
+        margin: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 70px;
+    }
+
+    .Performance-tab h6 {
+        margin: auto;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .Performance-tab h1 {
+        margin: auto;
+        text-align: center;
+    }
+
+    .Performance-tab p {
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .Performance-tab img {
+        margin-left: 5px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .device-info {
+        display: block;
+    }
+
+    .device-info .info1 {
+        margin-left: -35px;
+
+        hr {
+            width: 300px;
+        }
+    }
+
+    .device-info .info2 {
+        margin-left: -35px;
+        margin-top: -40px;
+
+        hr {
+            width: 300px;
+        }
+    }
+
+    .device-info .info3 {
+        margin-left: -35px;
+        margin-top: -50px;
+
+        hr {
+            width: 300px;
+        }
+    }
+
+    .all-in-the-family .img-info {
+        width: 350px;
+        height: 350px;
+        display: flex;
+        margin: auto;
+    }
+
+    .all-in-the-family p {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 60px;
+    }
+
+    .header h1 {
+        font-size: 48px;
+    }
+
+    .header p {
+        font-size: 22px;
+    }
+
+    .feature-title {
+        font-size: 36px;
+    }
+
+    .feature-description {
+        font-size: 18px;
+    }
+
+    .image-box {
+        width: 320px;
+        height: 400px;
+    }
+
+    .navigation {
+        overflow-x: auto;
+        padding-bottom: 10px;
+        justify-content: flex-start;
+    }
+
+    .nav-button {
+        min-width: 120px;
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    .arrows {
+        margin-top: -200px;
+    }
+
+    .header h1 {
+        font-size: 48px;
+    }
+
+    .header h2 {
+        font-size: 20px;
+    }
+
+    .image-container {
+        height: 400px;
+        border-radius: 16px;
+    }
+
+    .nav-button {
+        min-width: 140px;
+        padding: 14px 24px;
+        font-size: 14px;
+    }
+
+    .nav-buttons {
+        gap: 8px;
+    }
+
+    .image-container {
+        height: 300px;
+    }
+
+    .nav-button {
+        min-width: 120px;
+        padding: 12px 20px;
+        font-size: 13px;
+    }
+
+    .nav-buttons {
+        gap: 6px;
+    }
+
+    .arrow-btn {
+        width: 48px;
+        height: 48px;
+        font-size: 18px;
+    }
+
+    .image-box {
+        height: 400px;
+        border-radius: 16px;
+    }
+
+    .nav-button {
+        padding: 10px 20px;
+        font-size: 14px;
+        min-width: 120px;
+    }
+
+    .image-box {
+        height: 300px;
+        border-radius: 12px;
+    }
+
+    .nav-button {
+        padding: 8px 16px;
+        font-size: 13px;
+        min-width: 100px;
+    }
+
+    .nav-buttons {
+        gap: 8px;
+    }
+
+    .arrow-btn {
+        width: 44px;
+        height: 44px;
+        font-size: 16px;
+    }
+
+    .cards-container {
+        gap: 30px;
+    }
+
+    .feature-card {
+        padding: 35px;
+    }
+
+    .cards-container {
+        gap: 30px;
+    }
+
+    .feature-card {
+        padding: 35px;
+    }
+
+    .footer-links {
+        gap: 40px;
+    }
+
+    .iphone-footer {
+        padding: 40px 25px 20px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+    }
+
+    .footer-links {
+        width: 100%;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-social,
+    .footer-legal {
+        margin-top: 15px;
+    }
+
+    .iphone-footer {
+        padding: 30px 20px 15px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .footer-column {
+        min-width: 100%;
+    }
+
+    .footer-logo span {
+        font-size: 22px;
+    }
+
+    .footer-tagline {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .phone-side {
+        display: none;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .nav-button-left {
+        left: -16px;
+    }
+
+    .nav-button-right {
+        right: -16px;
+    }
+
+    .zoom-info2 {
+        display: block;
+        margin-left: -100px;
+    }
+
+    .zoom-info2 .info1 h3 {
+        margin-left: 160px;
+        font-size: 25px;
+    }
+
+    .zoom-info2 .info1 hr {
+        margin-left: 160px;
+        width: 310px;
+    }
+
+    .zoom-info2 .info1 p {
+        margin-left: 160px;
+        font-size: 15px;
+    }
+
+    .zoom-info2 .info2 h3 {
+        margin-left: 160px;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .zoom-info2 .info2 hr {
+        margin-left: 160px;
+        width: 310px;
+    }
+
+    .zoom-info2 .info2 p {
+        margin-left: 160px;
+        font-size: 15px;
+    }
+
+    .zoom-info2 .info3 h3 {
+        margin-left: 160px;
+        font-size: 21px;
+        margin-top: 50px;
+    }
+
+    .zoom-info2 .info3 hr {
+        margin-left: 160px;
+        width: 310px;
+    }
+
+    .zoom-info2 .info3 p {
+        margin-left: 160px;
+        font-size: 15px;
+    }
+
+    .battery-life h1 {
+        margin-left: 50px;
+        margin-right: 60px;
+        margin-top: 90px;
+    }
+
+    .battery-life p {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -20px;
+        padding: 50px;
+    }
+
+    .battery-life img {
+        display: none;
+    }
+
+    .battery-life .img2 img {
+        display: block;
+        margin-left: -30px;
+        width: 100%;
+    }
+
+    .battery-info {
+        display: block;
+    }
+
+    .battery-info .info1 {
+        margin: auto;
+        font-size: 20px;
+    }
+
+    .battery-info .info1 h3 {
+        margin-left: 40px;
+    }
+
+    .battery-info .info1 h2 {
+        margin-left: 40px;
+    }
+
+    .battery-info .info1 p {
+        margin-left: -10px;
+        margin-top: -45px;
+    }
+
+    .battery-info .info2 {
+        margin: auto;
+        font-size: 20px;
+    }
+
+    .battery-info .info2 h3 {
+        margin-left: 40px;
+    }
+
+    .battery-info .info2 h2 {
+        margin-left: 40px;
+    }
+
+    .battery-info .info2 p {
+        margin-left: -10px;
+        margin-top: -45px;
+    }
+
+    .battery-info .info3 {
+        margin: auto;
+        font-size: 20px;
+    }
+
+    .battery-info .info3 h3 {
+        margin-left: 40px;
+    }
+
+    .battery-info .info3 h2 {
+        margin-left: 40px;
+    }
+
+    .battery-info .info3 p {
+        margin-left: -10px;
+        margin-top: -45px;
+    }
+
+    .phone-display {
+        padding: 40px 20px;
+    }
+
+    .phone-image {
+        width: 220px;
+        height: 300px;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        display: block;
+        margin-top: -40px;
+    }
+}
+
+.controls {
+    gap: 8px;
+}
+
+.controls button {
+    font-size: 12px;
+    padding: 6px 12px;
+}
+
+.image-wrapper {
+    aspect-ratio: 4 / 5;
+    /* taller image for mobile */
+}
+
+.image-viewer {
+    margin: auto;
+    margin-top: -400px;
+}
+
+.zoom-info P {
+    margin-top: -600px;
+}
+
+.zoom-info img {
+    display: none;
+}
+
+.zoom2 img {
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media (max-width: 400px) {
+    .controls button {
+        font-size: 11px;
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+        gap: 10px;
+    }
+
+    .image-caption {
+        font-size: 9px;
+        padding: 15px;
+    }
+
+    .carousel-container {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .carousel-track {
+        display: block;
+    }
+
+    .carousel-track .image-card {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .nav-dots {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .carousel-item {
+        flex: 0 0 calc(50% - 10px);
+        min-width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 640px) {
+    .carousel-item {
+        flex: 0 0 calc(80% - 10px);
+        min-width: 250px;
+        height: 300px;
+    }
+}
+
+/* Instructions */
+.instructions {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    margin-top: 20px;
+    font-style: italic;
+}
